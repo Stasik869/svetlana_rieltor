@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лучшие Жилые Комплексы</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Подключаем красивый шрифт -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Шапка сайта (Header) -->
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="logo">ЛуЧшие ЖК</div>
+                <nav class="nav">
+                    <a href="index.html">Главная</a>
+                    <a href="#catalog">Каталог</a>
+                    <a href="#about">О компании</a>
+                    <a href="#contact">Контакты</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Главный экран (Hero Section) -->
+    <section class="hero">
+        <div class="container">
+            <h1 class="hero__title">Найдите свой идеальный дом</h1>
+            <p class="hero__subtitle">Квартиры вашей мечты в лучших жилых комплексах</p>
+            <a href="#catalog" class="btn btn--primary">Смотреть каталог</a>
+        </div>
+    </section>
+
+    <!-- Каталог ЖК (Catalog Section) -->
+    <section id="catalog" class="catalog">
+        <div class="container">
+            <h2 class="section-title">Жилые комплексы</h2>
+            <div class="catalog__grid">
+                <!-- Карточка ЖК 1 -->
+                <div class="card">
+                    <img src="https://source.unsplash.com/random/600x400/?apartment,modern" alt="ЖК Современный" class="card__image">
+                    <div class="card__content">
+                        <h3 class="card__title">ЖК "Аврора"</h3>
+                        <p class="card__desc">Современный квартал в центре города с собственной инфраструктурой.</p>
+                        <div class="card__details">
+                            <span>🏢 5 корпусов</span>
+                            <span>⭐ Бизнес-класс</span>
+                            <span>📅 2025</span>
+                        </div>
+                        <a href="pages/zhk-aurora.html" class="btn btn--secondary">Подробнее</a>
+                    </div>
+                </div>
+                <!-- Карточка ЖК 2 -->
+                <div class="card">
+                    <img src="https://source.unsplash.com/random/600x400/?apartment,luxury" alt="ЖК Премиум" class="card__image">
+                    <div class="card__content">
+                        <h3 class="card__title">ЖК "Нева"</h3>
+                        <p class="card__desc">Премиальный комплекс на набережной с панорамными видами.</p>
+                        <div class="card__details">
+                            <span>🏢 3 корпуса</span>
+                            <span>⭐ Премиум</span>
+                            <span>📅 2024</span>
+                        </div>
+                        <a href="#" class="btn btn--secondary">Подробнее</a>
+                    </div>
+                </div>
+                <!-- Карточка ЖК 3 -->
+                <div class="card">
+                    <img src="https://source.unsplash.com/random/600x400/?apartment,green" alt="ЖК Парковый" class="card__image">
+                    <div class="card__content">
+                        <h3 class="card__title">ЖК "Гармония"</h3>
+                        <p class="card__desc">Зеленый район для спокойной жизни вдали от городской суеты.</p>
+                        <div class="card__details">
+                            <span>🏢 8 корпусов</span>
+                            <span>⭐ Комфорт</span>
+                            <span>📅 2026</span>
+                        </div>
+                        <a href="#" class="btn btn--secondary">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал (Footer) -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <p>📞 +7 (999) 123-45-67</p>
+            <p>✉️ info@best-houses.ru</p>
+            <p>© 2024 ЛуЧшие ЖК. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
